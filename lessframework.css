@@ -1,0 +1,144 @@
+/* Less Framework 4 with 16/24 type presets
+
+/* Default Layout: 992px */
+
+    .structure{width:1040px;transition:1s;-moz-transition:1s;-webkit-transition:1s;}
+    .tab,.mob480,.mob320{display:none;}
+	.computer{display:block;}
+	.slidePart {width: 239px; height:auto;} 
+    .float_right{display: none;}
+
+/* Tablet Layout: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .structure{width:750px;transition:1s;-moz-transition:1s;-webkit-transition:1s;}  
+    .headerRight {width: 400px;}  
+    .smartContact {margin: 52px 20px 7px;} 
+    .siteBer {width: 220px;margin-right:20px;}
+    .service {width: 480px;}
+    .projectPart {width: 220px;}  
+    .requirement ol, .Opportunity ol, .tutorial ol {margin: 0 5px 10px 10px;}
+    .dmessage, .daddress {margin: 0 5px 20px 10px;} 
+    .default{height:878px;}
+    .default h1.welcome{font-size: 32px;transform: scale(1);}
+    .default h1 {font-size: 28px;}    
+    .portfolio {width: 710px;height: 260px;}
+    .sitePic {height: 150px;} 
+    .sitePic img {height: 150px;}
+    .managementPic {height: 150px;margin:20px 10px 20px 5px;}
+    .managementPic img {height: 160px;width: 170px;}
+   .managementInfo h3 {font-size: 24px;}
+   .managementInfo {margin: 50px 0 0 5px;}
+   .slider {height: 250px;}
+   .slider ul.bxslider li{width:750px!important;}
+   .slider img{height: 250px; width:720px;}
+   .contact, .about {height: auto;width: 720px;}
+   .about p {font-size: 16px;line-height: 19px;}
+   .contact .address {width: 414px;  margin: 40px 10px 10px;}
+   .contact .message {width: 270px;}
+   .contact .first {font-size: 14px;width: 90px;}
+   .contact .third {font-size: 14px;}
+   .contact input[type="email"],.contact input[type="text"] {font-size: 14px;height: 26px;}
+   .contact .message textarea {font-size: 14px;height: 50px;}
+   .facebook{width:260px; margin-right:10px;}
+    .add{width:210px;height:400px;}
+   .add h3{font-size:17px;}
+   .managementInfo h4{font-size:17px;}
+   .computer,.mob480,.mob320{display:none;}
+   .tab{display:block;}
+}
+
+
+
+/* Mobile Layout: 320px.*/
+
+@media only screen and (max-width: 767px) {
+    .structure{width:300px;transition:1s;-moz-transition:1s;-webkit-transition:1s;}    
+    .header .logo {width: 300px;}   
+    .logo p {font-size: 23px;}
+    .webMail{display:none;}  
+    .headerRight {width: 300px;}
+    .smartContact {margin: 20px;}
+    .menu li a {font-size: 15px;font-weight: bold;padding: 5px 8px;}
+    .slider {height:150px;}
+    .slider img {height: 150px; width:300px;}
+    .siteBer{width:270px;margin-right:0;}
+    .headTitle, .siteMap h2 {text-align: left;}
+    .sMenu,.work_category{display:none;}
+    .float_right{float:right; margin:5px; cursor: pointer; display: block;}
+    .portfolio {width: 232px; height:249px; margin: auto auto 30px;}  
+    .service{ width:270px;}
+    .default{height:auto;}
+    .default h1.welcome{font-size: 18px;transform: scale(1);}
+    .default h1 {font-size: 24px;padding: 30px 5px;text-shadow: 1px 5px 1px #fff;} 
+    .add h3 {font-size:16px; font-weight:400;}
+    .add h4 {font-size:14px; font-weight:400;}
+    .managementInfo {margin: 15px 0 5px;text-align: center;width:100%;}
+    .managementInfo h3 {font-size: 22px;}
+    .managementInfo h4 {font-size: 18px;}  
+    .projectPart {width: 250px;} 
+    .projectPic {height: 171px;width: 238px;} 
+    .requirement ol, .Opportunity ol, .tutorial ol {margin: 0 5px 10px 10px;}
+    .dmessage, .daddress {margin: 0 0px 20px;}
+    .first {display: inline-block;font-size: 12px;width: 60px;margin-left:2px;}
+     table{width:270px;}
+    .third {font-size: 12px;width: 205px;}
+    .second {margin-right:0; font-size:14px;} 
+    input[type="email"], input[type="text"] {width: 92%;} 
+    .dmessage textarea, .message textarea {width: 92%;} 
+    .contact, .about {width: 85%;height: auto;}
+    .about p {font-size: 12px;line-height: 16px;}
+    .contact>.address {margin: 10px 0;width: 270px; border-right:none;}
+    .contact>.message {margin: 10px 0;width: 265px;}
+    .message h2 {font-size: 18px;margin-bottom: 10px;}
+    .fLeft{font-size:12px; margin-top:15px;}
+    .fRight{font-size:12px; margin-top:15px;}
+    .facebook{width:270px;}
+    .add{float:left; width:270px; margin-top:10px; height:auto;}
+    .computer,.tab,.mob480{display:none;}
+    .mob320{display:block;}
+	.bx-wrapper .bx-pager{display:none;}
+}
+
+          
+
+/* Wide Mobile Layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .structure{width:450px;transition:1s;-moz-transition:1s;-webkit-transition:1s;}
+    .slider {height:150px;}
+    .slider ul.bxslider li{width:450px!important;}
+    .slider img {height: 150px; width: 420px;}
+	.siteBer { width: 420px;}
+    .service {width: 420px;}
+    .default{height:auto;}
+    .default h1 {font-size: 28px;}
+    .default h1.welcome{font-size: 28px;transform: scale(1);}
+    .portfolio {width: 232px; height:249px; margin: auto auto 30px;} 
+    .sitePic { height: 200px;}
+    .sitePic img {height: 200px;}
+	.headerRight {width: 450px;}
+    .smartContact ul li {float: left;font-size: 15px;}
+    .header .logo {width: 450px; margin-right:0;}
+    .menu li a {font-size: 18px;font-weight: normal;padding: 5px 20px;}
+    .contact, .about {height: auto;width: 420px;}
+    .contact>.address{ width: 420px;}
+     table {width: 420px;}
+    .contact.address.first{font-size: 15px;width: 100px;}
+    .contact.address.third{font-size: 15px;width: 236px;}
+    .contact>.message{ width: 402px;}
+    .managementPic {margin: 20px 110px;}
+    .projectPart {margin-left:80px;}
+    /*.projectPic {height: 200px;width: 288px;}*/
+    .fLeft{font-size:12px; margin-top:45px;}
+    .fRight{font-size:12px; margin-top:30px;}
+    .facebook{width:420px;}
+    .add{float:left; width:420px; margin-top:10px; height:auto;}
+    .computer,.tab,.mob320{display:none;}
+    .mob480{display:block;}
+	.bx-wrapper .bx-pager{display:none;}
+    .first {width:85px;}
+    .third {width:300px;}
+}
+
+

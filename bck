@@ -1,0 +1,74 @@
+<NotepadPlus>
+    <Project name="Project Name">
+        <Folder name="css">
+            <File name="css\font-awesome.css" />
+            <File name="css\font-awesome.min.css" />
+        </Folder>
+        <Folder name="fonts">
+            <File name="fonts\fontawesome-webfont.eot" />
+            <File name="fonts\fontawesome-webfont.svg" />
+            <File name="fonts\fontawesome-webfont.ttf" />
+            <File name="fonts\fontawesome-webfont.woff" />
+            <File name="fonts\FontAwesome.otf" />
+        </Folder>
+        <Folder name="images">
+            <File name="images\1.png" />
+            <File name="images\2.png" />
+            <File name="images\3.png" />
+            <File name="images\4.png" />
+            <File name="images\5.png" />
+            <File name="images\6.png" />
+            <File name="images\banglarhasi.png" />
+            <File name="images\bodybg.jpg" />
+            <File name="images\bx_loader.gif" />
+            <File name="images\ceo.jpg" />
+            <File name="images\comcap.png" />
+            <File name="images\controls.png" />
+            <File name="images\favicon.png" />
+            <File name="images\jeet.png" />
+            <File name="images\medico.png" />
+            <File name="images\mpchighschool.png" />
+            <File name="images\musictoneworld.png" />
+            <File name="images\odesk.png" />
+            <File name="images\perfectphotography.png" />
+            <File name="images\pizzacorner.png" />
+            <File name="images\suvidha.png" />
+            <File name="images\Thumbs.db" />
+            <File name="images\webbank.png" />
+            <File name="images\welcomewebdesign.png" />
+            <File name="images\wieldstrem.png" />
+            <File name="images\wwd_logo.png" />
+        </Folder>
+        <Folder name="js">
+            <File name="js\jquery.bxslider.min.js" />
+            <File name="js\jquery.min.js" />
+            <File name="js\my_js.js" />
+        </Folder>
+        <Folder name="plugins">
+            <File name="plugins\jquery.easing.1.3.js" />
+            <File name="plugins\jquery.fitvids.js" />
+        </Folder>
+        <File name="animate.min.css" />
+        <File name="index.html" />
+        <File name="jquery.bxslider.css" />
+        <File name="lessframework.css" />
+        <File name="style.css" />
+    </Project>
+    <Project name="Jornalist">
+        <Folder name="css">
+            <File name="F:\Project Work\personal web site\project_01\css\jquery.bxslider.css" />
+        </Folder>
+        <Folder name="images">
+            <File name="F:\Project Work\personal web site\project_01\images\bx_loader.gif" />
+            <File name="F:\Project Work\personal web site\project_01\images\controls.png" />
+        </Folder>
+        <Folder name="js">
+            <File name="F:\Project Work\personal web site\project_01\js\jquery-1.10.2.min.js" />
+            <File name="F:\Project Work\personal web site\project_01\js\jquery.bxslider.js" />
+            <File name="F:\Project Work\personal web site\project_01\js\jquery.bxslider.min.js" />
+            <File name="F:\Project Work\personal web site\project_01\js\script.js" />
+        </Folder>
+        <File name="F:\Project Work\personal web site\project_01\index.html" />
+        <File name="F:\Project Work\personal web site\project_01\style.css" />
+    </Project>
+</NotepadPlus>
